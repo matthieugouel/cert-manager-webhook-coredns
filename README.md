@@ -54,17 +54,17 @@ subjects:
 apiVersion: cert-manager.io/v1
 kind: ClusterIssuer
 metadata:
-  name: nextheader-acme
+  name: nxthdr-acme
 spec:
   acme:
-    email: admin@nextheader.dev
+    email: admin@nxthdr.dev
     server: https://acme-v02.api.letsencrypt.org/directory
     privateKeySecretRef:
-      name: nextheader-acme
+      name: nxthdr-acme
     solvers:
     - dns01:
         webhook:
-          groupName: acme.nextheader.dev
+          groupName: acme.nxthdr.dev
           solverName: coredns-solver
           config:
             coreDNSPrefix: /skydns
