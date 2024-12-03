@@ -2,7 +2,7 @@ module github.com/NXTHDR/cert-manager-webhook-coredns
 
 go 1.22.0
 
-toolchain go1.23.3
+toolchain go1.23.4
 
 require (
 	github.com/cert-manager/cert-manager v1.16.2
