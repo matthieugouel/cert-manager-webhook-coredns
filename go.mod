@@ -2,7 +2,7 @@ module github.com/matthieugouel/cert-manager-webhook-coredns
 
 go 1.23.0
 
-toolchain go1.23.4
+toolchain go1.23.5
 
 require (
 	github.com/cert-manager/cert-manager v1.16.3
