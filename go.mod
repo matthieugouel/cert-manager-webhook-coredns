@@ -5,7 +5,7 @@ go 1.24.0
 toolchain go1.24.4
 
 require (
-	github.com/cert-manager/cert-manager v1.18.1
+	github.com/cert-manager/cert-manager v1.18.2
 	go.etcd.io/etcd/client/v3 v3.6.1
 	k8s.io/api v0.33.2
 	k8s.io/apiextensions-apiserver v0.33.2
